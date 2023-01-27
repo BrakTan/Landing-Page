@@ -77,6 +77,10 @@ ul{
     padding: 0;
 }
 
+.subtext{
+    font-size: 18px;
+}
+
 .signup,
 .call{
     background-color: #3882f6;
@@ -94,4 +98,43 @@ ul{
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information > h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.infoImg{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+}
+
+.infoImg > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.image{
+    border: 5px #3882f6 solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.information .subtext{
+    color: #1f2937;
 }
