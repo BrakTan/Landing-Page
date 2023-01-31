@@ -91,6 +91,7 @@ ul{
     border-radius: 8px;
     border: none;
     color: #e5e7eb;
+    font-weight: bold;
 }
 
 .heroImg{
@@ -146,7 +147,7 @@ ul{
     display: flex;
     justify-content: center;
     box-sizing: content-box;
-    padding: 1.6rem;
+    padding: 1.6rem 0;
 }
 
 .quote > div{
@@ -193,5 +194,8 @@ ul{
 
 .call > .signup{
     border: #e5e7eb 2px solid;
-    font-weight: bold;
+}
+
+footer{
+    padding: 1rem 0;
 }
