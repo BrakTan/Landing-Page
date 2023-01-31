@@ -3,11 +3,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     justify-content: space-between;
     margin: 0;
+    gap: 5rem;
 }
-
 
 .hero,
 footer{
@@ -89,7 +89,8 @@ ul{
 .signup{
     padding: 5px 20px;
     border-radius: 8px;
-    border: none
+    border: none;
+    color: #e5e7eb;
 }
 
 .heroImg{
@@ -111,6 +112,7 @@ ul{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-top: 0;
 }
 
 .infoImg{
@@ -132,9 +134,38 @@ ul{
     border-radius: 20px;
     width: 200px;
     height: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 10px ;
 }
 
 .information .subtext{
     color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    padding: 1.6rem;
+}
+
+.quote > div{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 800px;
+
+}
+
+.quotation{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.signature{
+    align-self: flex-end;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
